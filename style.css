@@ -1,0 +1,90 @@
+@import url('https://fonts.cdnfonts.com/css/digital-7-mono');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+
+.model {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 12px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.calculator {
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 500px;
+    background: ivory;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#display {
+    font-family: 'Digital-7 Mono', sans-serif;
+    width: 100%;
+    padding: 10px;
+    font-size: 48px;
+    margin-bottom: 26px;
+    text-align: right;
+    border: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: rgb(217, 236, 183);
+    color: black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.two-space {
+    grid-column: span 2;
+}
+
+.gray {
+    color: white;
+    background: gray;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pink {
+    background: pink;
+    color: black;
+}
+
+.wheat {
+    color: black;
+    background: wheat;
+}
